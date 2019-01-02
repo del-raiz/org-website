@@ -22,11 +22,11 @@ interface Person {
 
 
 function greeter (person: Person) {
-	return document.createTextNode("This is " + person.firstName + " " + person.lastName);
+	return document.createTextNode("Made horribly by " + person.firstName + " " + person.lastName);
 }
 
 function post (): void {
-	let user = new Student("Tim", "Pitter", "USA");
+	let user = new Student("Luis", "M.", "Morelia");
 	let x = document.createElement("P");
 	let t = greeter(user);
 	x.appendChild(t);

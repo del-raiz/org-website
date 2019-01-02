@@ -12,7 +12,13 @@ h2 {
 	margin-top: 0;
 	padding-top: 0;
 }
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
 a {
+	list-style-type: none;
 	padding: 5px 10px;
 	text-decoration: none;
 	margin-top: 10px;
@@ -29,4 +35,10 @@ a:hover {
 }
 a.active {
 	color: #039be5;
+}
+p {
+	font-size: 3em;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #2d3c50;
+	padding: 5px 10px,
 }

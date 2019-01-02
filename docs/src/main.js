@@ -18,10 +18,10 @@ var Student = /** @class */ (function () {
     return Student;
 }());
 function greeter(person) {
-    return document.createTextNode("This is " + person.firstName + " " + person.lastName);
+    return document.createTextNode("Made horribly by " + person.firstName + " " + person.lastName);
 }
 function post() {
-    var user = new Student("Tim", "Pitter", "USA");
+    var user = new Student("Luis", "M.", "Morelia");
     var x = document.createElement("P");
     var t = greeter(user);
     x.appendChild(t);
