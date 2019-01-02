@@ -18,7 +18,17 @@ ul {
 	padding: 0;
 }
 a {
-	list-style-type: none;
+	padding: 5px 10px;
+	color: #2d3c50;
+	text-decoration: none;
+	margin-top: 10px;
+	display: inline-block;
+	background-color: #eee;
+	border-radius: 4px;
+}
+.fake-link {
+	color: #2d3c50;
+	cursor: pointer;
 	padding: 5px 10px;
 	text-decoration: none;
 	margin-top: 10px;
@@ -26,8 +36,10 @@ a {
 	background-color: #eee;
 	border-radius: 4px;
 }
-a:visited, a:link {
-	color: #2d3c50;
+.fake-link:hover {
+	color: #039be5;
+	background-color: #cfd8dc;
+	cursor: pointer;
 }
 a:hover {
 	color: #039be5;
