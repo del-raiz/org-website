@@ -1,13 +1,3 @@
-var Startup = /** @class */ (function () {
-    function Startup() {
-    }
-    Startup.main = function () {
-        console.log('Hello World');
-        return 0;
-    };
-    return Startup;
-}());
-//Startup.main();
 var Student = /** @class */ (function () {
     function Student(firstName, lastName, country) {
         this.firstName = firstName;
@@ -18,10 +8,10 @@ var Student = /** @class */ (function () {
     return Student;
 }());
 function greeter(person) {
-    return document.createTextNode("Made horribly by " + person.firstName + " " + person.lastName);
+    return document.createTextNode(person.firstName + " " + person.lastName);
 }
 function post() {
-    var user = new Student("Luis", "M.", "Morelia");
+    var user = new Student("Hello", ",World! ", "Watsonville, CA");
     var x = document.createElement("P");
     var t = greeter(user);
     x.appendChild(t);

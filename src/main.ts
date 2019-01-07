@@ -1,12 +1,3 @@
-class Startup {
-	public static main(): number {
-		console.log('Hello World');
-		return 0;
-	}
-}
-
-//Startup.main();
-
 class Student {
 	fullName: string;
 
@@ -22,13 +13,14 @@ interface Person {
 
 
 function greeter (person: Person) {
-	return document.createTextNode("Made horribly by " + person.firstName + " " + person.lastName);
+	return document.createTextNode(person.firstName + " " + person.lastName);
 }
 
 function post (): void {
-	let user = new Student("Luis", "M.", "Morelia");
+	let user = new Student("Hello", ",World! ", "Watsonville, CA");
 	let x = document.createElement("P");
 	let t = greeter(user);
 	x.appendChild(t);
 	document.body.appendChild(x);
 }
+
