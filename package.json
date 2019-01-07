@@ -4,11 +4,18 @@
   "description": "Website",
   "main": "main.js",
   "scripts": {
+    "start": "gulp start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Erik P. Almaraz",
   "license": "ISC",
+  "dependencies": {},
   "devDependencies": {
-    "gulp": "4.0.0"
+    "@types/del": "^3.0.1",
+    "@types/gulp": "^4.0.5",
+    "del": "^3.0.0",
+    "gulp": "4.0.0",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.2"
   }
 }
