@@ -1,2 +1,2 @@
 # website
-Personal Website for domain: alkymizt.com
+My personal website (alkymizt.com)

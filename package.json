@@ -1,14 +1,16 @@
 {
   "name": "alkymizt-web",
   "version": "0.0.1",
-  "description": "Website",
-  "main": "main.js",
+  "distro": "",
+  "author": {
+    "name": "Erik P. Almaraz"
+  },
+  "main": "./docs/main",
+  "private": true,
   "scripts": {
-    "start": "gulp start",
+    "start": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Erik P. Almaraz",
-  "license": "ISC",
   "dependencies": {},
   "devDependencies": {
     "@types/del": "^3.0.1",
@@ -17,5 +19,13 @@
     "gulp": "4.0.0",
     "ts-node": "^7.0.1",
     "typescript": "^3.2.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Alkymizt/website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Alkymizt/website/issues"
+  },
+  "optionalDependencies":{}
 }

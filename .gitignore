@@ -3,6 +3,7 @@
 
 # IDE - Visual Studio
 .vs/*
+.vscode/**/*
 
 # misc
 /typings

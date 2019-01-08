@@ -1,17 +1,13 @@
-/// gulpfile.js
-
-import { gulp } from 'gulp';
-import { del } from 'del';
-
-//var gulp = require('gulp');
-//var del = require('del');
+// gulpfile.ts
+let gulp = require('gulp');
+let del = require('del');
 
 var paths = {
-    scripts: ['src/**/*.js', 'src/**/*.ts', 'src/**/*.map'],
+    scripts: ['src/*'],
 };
 
 gulp.task('clean', function () {
-    return del(['docs/src/**/*.js']);
+    return del(['docs/src/**/*.js', './docs/*.html', './docs/*.css']);
 });
 
 gulp.task('default', function () {
