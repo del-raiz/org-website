@@ -1,15 +1,19 @@
 // gulpfile.ts
-let gulp = require('gulp');
-let del = require('del');
+import { parallel } from 'gulp';
+import { del } from 'del';
 
 var paths = {
     scripts: ['src/*'],
 };
 
-gulp.task('clean', function () {
-    return del(['docs/src/**/*.js', './docs/*.html', './docs/*.css']);
-});
+function clean(cb: any) {
 
-gulp.task('default', function () {
-    gulp.src(paths.scripts).pipe(gulp.dest('src'))
-});
+	cb();
+}
+
+function defaultTask(cb: any) {
+	// place code for your default task here.
+	cb();
+}
+
+exports.default = defaultTask;
