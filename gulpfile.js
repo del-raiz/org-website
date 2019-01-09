@@ -32,31 +32,31 @@ gulp.task('compile', () => {
 		.pipe(gulp.dest(paths.scripts.out));
 });
 
-gulp.task('clean', cb => {
-	rimraf('docs/**/*', cb);
-});
-
-gulp.task('copy-html', () => {
-	return gulp
-		.src([paths.pages.src, 'CNAME'])
-		.pipe(gulp.dest(paths.pages.out));
-});
-
-gulp.task('copy-styles', () => {
-	return gulp
-		.src(paths.styles.src)
-		.pipe(gulp.dest(paths.styles.out));
-});
-
-gulp.task('copy-imgs', () => {
-	return gulp
-		.src(paths.imgs.src)
-		.pipe(gulp.dest(paths.imgs.out));
-});
-
 gulp.task('watch', ['compile'], () => {
 	gulp.watch(paths.scripts.src, ['compile']);
 })
 
-gulp.task('build', ['watch', 'copy-html', 'copy-styles', 'copy-imgs']);
+gulp.task('copy-html', () => {
+	return gulp
+	.src([paths.pages.src, 'CNAME'])
+	.pipe(gulp.dest(paths.pages.out));
+});
+
+gulp.task('copy-styles', () => {
+	return gulp
+	.src(paths.styles.src)
+	.pipe(gulp.dest(paths.styles.out));
+});
+
+gulp.task('copy-imgs', () => {
+	return gulp
+	.src(paths.imgs.src)
+	.pipe(gulp.dest(paths.imgs.out));
+});
+
+gulp.task('clean', cb => {
+	rimraf('docs/**/*', cb);
+});
+
+gulp.task('build', ['compile', 'copy-html', 'copy-styles', 'copy-imgs']);
 
