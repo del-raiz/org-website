@@ -8,14 +8,14 @@
   "main": "./docs/main",
   "private": true,
   "scripts": {
-	"clean": "gulp clean",
+    "clean": "gulp clean",
     "start": "gulp build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {},
   "devDependencies": {
-    "gulp": "^3.8.9",
-    "gulp-tsb": "^2.0.5",
+    "gulp": "^4.0.0",
+    "gulp-typescript": "^5.0.0",
     "rimraf": "^2.6.3",
     "typescript": "^3.2.2"
   },

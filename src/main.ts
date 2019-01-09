@@ -17,7 +17,7 @@ function greeter (person: Person) {
 }
 
 function post (): void {
-	let user = new Student("Hello", ",World! ", "Watsonville, CA");
+	let user = new Student("Hello", ", World! ", "Watsonville, CA");
 	let x = document.createElement("P");
 	let t = greeter(user);
 	x.appendChild(t);

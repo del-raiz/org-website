@@ -1,9 +1,15 @@
 // gulpfile.js
 'use strict'
 
-const gulp = require('gulp');
+const { 
+	src, 
+	dest, 
+	series, 
+	parallel, 
+	watch 
+} = require('gulp');
 const rimraf = require('rimraf');
-const tsb = require('gulp-tsb');
+const ts = require('gulp-typescript');
 
 let paths = {
 	scripts: {
@@ -24,39 +30,43 @@ let paths = {
 	}
 };
 
-let compilation = tsb.create('tsconfig.json');
-gulp.task('compile', () => {
-	return gulp
-		.src(paths.scripts.src)
-		.pipe(compilation()) // <- new compilation
-		.pipe(gulp.dest(paths.scripts.out));
-});
+let tsProject = ts.createProject('tsconfig.json');
+function compile(cb) {
+	return src(paths.scripts.src)
+		.pipe(tsProject())
+		.pipe(dest(paths.scripts.out));
+};
 
-gulp.task('watch', ['compile'], () => {
-	gulp.watch(paths.scripts.src, ['compile']);
-})
+function tsWatch() {
+	watch(paths.scripts.src, compile)
+}
 
-gulp.task('copy-html', () => {
-	return gulp
-	.src([paths.pages.src, 'CNAME'])
-	.pipe(gulp.dest(paths.pages.out));
-});
+function copyHtml (cb) {
+	return src([paths.pages.src, 'CNAME'])
+		.pipe(dest(paths.pages.out));
+}
+function copyStyles (cb) {
+	return src(paths.styles.src)
+		.pipe(dest(paths.styles.out));
+};
 
-gulp.task('copy-styles', () => {
-	return gulp
-	.src(paths.styles.src)
-	.pipe(gulp.dest(paths.styles.out));
-});
+function copyImgs(cb) {
+	return src(paths.imgs.src)
+		.pipe(dest(paths.imgs.out));
+}
 
-gulp.task('copy-imgs', () => {
-	return gulp
-	.src(paths.imgs.src)
-	.pipe(gulp.dest(paths.imgs.out));
-});
-
-gulp.task('clean', cb => {
+function clean(cb) {
 	rimraf('docs/**/*', cb);
-});
+}
 
-gulp.task('build', ['compile', 'copy-html', 'copy-styles', 'copy-imgs']);
-
+exports.clean = clean;
+exports.build = series(
+	clean,
+	parallel(
+		compile,
+		copyHtml,
+		copyStyles,
+		copyImgs,
+	),
+	//tsWatch
+);

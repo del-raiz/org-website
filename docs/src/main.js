@@ -11,10 +11,9 @@ function greeter(person) {
     return document.createTextNode(person.firstName + " " + person.lastName);
 }
 function post() {
-    var user = new Student("Hello", ",World! ", "Watsonville, CA");
+    var user = new Student("Hello", ", World! ", "Watsonville, CA");
     var x = document.createElement("P");
     var t = greeter(user);
     x.appendChild(t);
     document.body.appendChild(x);
 }
-//# sourceMappingURL=main.js.map
