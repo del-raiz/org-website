@@ -15,6 +15,7 @@
   "dependencies": {},
   "devDependencies": {
     "gulp": "^4.0.0",
+    "gulp-sourcemaps": "^2.6.4",
     "gulp-typescript": "^5.0.0",
     "rimraf": "^2.6.3",
     "typescript": "^3.2.2"
