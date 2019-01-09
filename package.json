@@ -8,16 +8,15 @@
   "main": "./docs/main",
   "private": true,
   "scripts": {
-    "start": "gulp",
+	"clean": "gulp clean",
+    "start": "gulp build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {},
   "devDependencies": {
-    "@types/del": "^3.0.1",
-    "@types/gulp": "^4.0.5",
-    "del": "^3.0.0",
-    "gulp": "4.0.0",
-    "ts-node": "^7.0.1",
+    "gulp": "^3.8.9",
+    "gulp-tsb": "^2.0.5",
+    "rimraf": "^2.6.3",
     "typescript": "^3.2.2"
   },
   "repository": {
@@ -27,5 +26,5 @@
   "bugs": {
     "url": "https://github.com/Alkymizt/website/issues"
   },
-  "optionalDependencies":{}
+  "optionalDependencies": {}
 }
