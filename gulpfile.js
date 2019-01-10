@@ -10,7 +10,7 @@ const {
 } = require('gulp');
 const rimraf = require('rimraf');
 const ts = require('gulp-typescript');
-const sourcemaps = require('gulp-sourcemaps')
+const sourcemaps = require('gulp-sourcemaps');
 
 let paths = {
 	scripts: {
@@ -38,20 +38,24 @@ function compile(cb) {
 		.pipe(tsProject())
 		.pipe(sourcemaps.write())
 		.pipe(dest(paths.scripts.out));
-};
+}
 
-function tsWatch() {
-	watch(paths.scripts.src, compile)
+function watching() {
+	watch([paths.scripts.src,
+		paths.pages.src,
+		paths.styles.src], 
+		parallel(compile, copyHtml, copyStyles))
 }
 
 function copyHtml (cb) {
 	return src([paths.pages.src, 'CNAME'])
 		.pipe(dest(paths.pages.out));
 }
+
 function copyStyles (cb) {
 	return src(paths.styles.src)
 		.pipe(dest(paths.styles.out));
-};
+}
 
 function copyImgs(cb) {
 	return src(paths.imgs.src)
@@ -71,5 +75,15 @@ exports.build = series(
 		copyStyles,
 		copyImgs,
 	),
-	//tsWatch
+	//watch
+);
+exports.dev = series(
+	clean,
+	parallel(
+		compile,
+		copyHtml,
+		copyStyles,
+		copyImgs,
+	),
+	watching
 );

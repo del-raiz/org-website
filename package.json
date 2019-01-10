@@ -8,8 +8,9 @@
   "main": "./docs/main",
   "private": true,
   "scripts": {
-    "clean": "gulp clean",
-    "start": "gulp build",
+	"clean": "gulp clean",
+	"build": "gulp build",
+    "start": "gulp dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {},
