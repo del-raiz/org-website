@@ -11,7 +11,7 @@ body {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #333;
+    background-color: #2d3c50;
     position: fixed;
     top: 0;
     width: 100%;
@@ -20,15 +20,18 @@ body {
     float: left;
 }
 .nav-items .nav-links {
-    display: block;
-    color: white;
+	display: block;
+	font-size: 1.2em;
+	color: white;
+	font-style: bold;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     cursor: pointer;
 }
-.nav-items .nav-links:hover:not(.active), .nav-item-more:hover {
-	background-color: #111;
+.nav-items .nav-links:hover:not(.active), .nav-idrop:hover {
+	/*background-color: #111;*/
+	background-color: #9a9a9a;
 }
 .nav-items .nav-links.active {
     background-color: #4CAF50;
@@ -39,14 +42,13 @@ body {
 	position: absolute;
 	background-color: #f9f9f9;
 	min-width: 160px;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
 	z-index: 1;
 }
 
-.nav-item-more:hover .dropdown-content {
+.nav-idrop:hover .dropdown-content {
 	display: block;
 }
-
 .dropdown-content .dcont {
 	float: none;
 	color: black;

@@ -23,11 +23,16 @@ function post(): void {
 	document.body.appendChild(x);
 }
 
-function post2(): void {
-	let y = document.createElement('h2')
-	let t2 = document.createTextNode("We are currently under construction...  In the meantime, checkout the More tab to see how I'm building this website:");
-	y.appendChild(t2);
-	document.body.appendChild(y);
+function post2(): any {
+	let para = document.createElement('h2');
+	para.setAttribute('id','test');
+	let node = document.createTextNode("We are currently under construction...  In the meantime, checkout the ''More'' tab to see how I'm building this website:");
+	para.appendChild(node);
+	document.body.appendChild(para);
+	setTimeout(y => {
+		let child = document.getElementById('test');
+		child.parentNode.removeChild(child);
+	}, 4000)
 }
 
 function reload(): void {
