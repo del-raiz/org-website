@@ -8,8 +8,8 @@
   "main": "./docs/main",
   "private": true,
   "scripts": {
-	"clean": "gulp clean",
-	"build": "gulp build",
+    "clean": "gulp clean",
+    "build": "gulp build",
     "start": "gulp dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,6 +19,7 @@
     "gulp-sourcemaps": "^2.6.4",
     "gulp-typescript": "^5.0.0",
     "rimraf": "^2.6.3",
+    "tslint": "^5.12.1",
     "typescript": "^3.2.2"
   },
   "repository": {

@@ -70,14 +70,14 @@ h1 {
 	font-family: Arial, Helvetica, sans-serif;
 	color: #3563ae;
 	padding: 1em;
-	margin: 0.5em 0.5em 0 0.5em;
+	margin: 1em 0.5em 0 0.5em;
 	text-align: center;
 }
 h2 {
 	font-size: 1.5em;
 	font-family: Arial, Helvetica, sans-serif;
 	color: #808080;
-	margin-top: 0;
+	margin-top: 1em;
 	padding-top: 1em;
 	padding-left: 1em;
 }
