@@ -15,6 +15,11 @@ function greeter (person: Person): Text {
 	return document.createTextNode(person.firstName + " " + person.lastName);
 }
 
+function activate(id: string): void {
+	let element = document.getElementById(id);
+	element.classList.add('active');
+}
+
 function post(): void {
 	let para = document.createElement('p');
 	para.setAttribute('id', 'world')
