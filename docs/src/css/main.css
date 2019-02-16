@@ -14,7 +14,8 @@ body {
     background-color: #2d3c50;
     position: fixed;
     top: 0;
-    width: 100%;
+	width: 100%;
+	/*box-shadow: 0px 0px 16px 0px rgba(0,0,0,1);*/
 }
 .nav-items {
     float: left;
@@ -63,6 +64,10 @@ body {
 /* End dropdown menu */
 
 /* End Navbar styles */
+.Hlogo {
+	height: 10;
+	width: 50;
+}
 .big-image {
 	padding-top: 5em;
 }

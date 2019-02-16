@@ -75,7 +75,6 @@ exports.build = series(
 		copyStyles,
 		copyImgs,
 	),
-	//watch
 );
 exports.dev = series(
 	clean,
