@@ -1,3 +1,5 @@
+import { isValid } from './lib/parser';
+
 class Student {
 	fullName: string;
 
@@ -45,6 +47,9 @@ function post2(): any {
 	}, 4000);
 }
 
+function check(str:string) {
+	return "The parenthese string is " + isValid(str) + "!"
+}
 function reload(): void {
 	location.reload();
 }

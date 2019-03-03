@@ -13,7 +13,9 @@
     "start": "gulp dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {},
+  "dependencies": {
+    "blasjs": "^1.0.12"
+  },
   "devDependencies": {
     "gulp": "^4.0.0",
     "gulp-sourcemaps": "^2.6.4",
