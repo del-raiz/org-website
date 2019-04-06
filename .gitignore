@@ -8,3 +8,6 @@
 # misc
 /typings
 package-lock.json
+
+# Ignore .js files in src
+/src/**/*.js
