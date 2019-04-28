@@ -62,7 +62,7 @@ function copyImgs() {
 		.pipe(dest(paths.imgs.out));
 }
 
-function clean() {
+function clean(cb) {
 	rimraf('docs/**/*', cb);
 }
 
