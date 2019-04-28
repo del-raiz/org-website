@@ -32,7 +32,7 @@ let paths = {
 };
 
 let tsProject = ts.createProject('tsconfig.json');
-function compile(cb) {
+function compile() {
 	return src(paths.scripts.src)
 		.pipe(sourcemaps.init())
 		.pipe(tsProject())
@@ -47,22 +47,22 @@ function watching() {
 		parallel(compile, copyHtml, copyStyles))
 }
 
-function copyHtml (cb) {
+function copyHtml() {
 	return src([paths.pages.src, 'CNAME'])
 		.pipe(dest(paths.pages.out));
 }
 
-function copyStyles (cb) {
+function copyStyles() {
 	return src(paths.styles.src)
 		.pipe(dest(paths.styles.out));
 }
 
-function copyImgs(cb) {
+function copyImgs() {
 	return src(paths.imgs.src)
 		.pipe(dest(paths.imgs.out));
 }
 
-function clean(cb) {
+function clean() {
 	rimraf('docs/**/*', cb);
 }
 

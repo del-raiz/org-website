@@ -4,13 +4,12 @@
 //
 
 
-//	Complexity Analysis (function isValid):
+//	function isValid - Complexity Analysis:
 //	  - Time Complexity: O(n) because we simply traverse the given string one character
 //      at a time and push and pop operations on a stack take O(1) time.
 //    - Space Complexity: O(n) as we push all opening brackets onto the stack and in
 //      worst case, we will end up pushing all the brackets onto the stack.
 //
-
 function isValid(stringp: string ):string {
 	const len: number = stringp.length;
 	const map: object = {
@@ -38,12 +37,6 @@ function isValid(stringp: string ):string {
 	return "Valid";
 }
 
-enum Direction {
-	Up = "UP",
-	Down = "DOWN",
-	Left = "LEFT",
-	Right = "RIGHT",
-}
 export { isValid };
 
 console.log(isValid('{[(])}')); // False
