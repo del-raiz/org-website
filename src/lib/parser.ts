@@ -28,7 +28,7 @@ function isValid(stringp: string ):string {
 		} else if (pattern.test(char)) {
 			const last = stack.pop();	
 			if (map[last] !== char) {
-				flag=false;
+				flag = false;
 				return "Invalid";
 			}
 		}
