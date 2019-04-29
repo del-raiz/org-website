@@ -1,4 +1,4 @@
-import { isValid } from './lib/parser';
+//import { isValid } from './lib/parser';
 
 class Student {
 	fullName: string;
@@ -13,8 +13,8 @@ interface Person {
 	lastName: string;
 }
 
-function greeter (person: Person): Text {
-	return document.createTextNode(person.firstName + " " + person.lastName);
+function greeter (person: Person): string {
+	return person.firstName + " " + person.lastName;
 }
 
 function activate(id: string): void {
@@ -22,10 +22,13 @@ function activate(id: string): void {
 	element.classList.add('active');
 }
 
-function post(): void {
-	let para = document.createElement('p');
+function post(): any {
+	let para = document.createElement('h2');
 	para.setAttribute('id', 'world')
-	let node = greeter(new Student("Hello", ", World! ", "Watsonville, CA"));
+	let student = new Student("Hello", ", World! ", "Watsonville, CA");
+	let string = greeter(student);
+	console.log(string);
+	let node = document.createTextNode(string);
 	para.appendChild(node);
 	document.body.appendChild(para);
 	setTimeout(cb => {
@@ -47,9 +50,10 @@ function post2(): any {
 	}, 4000);
 }
 
-function check(str:string) {
-	return "The parenthese string is " + isValid(str) + "!"
-}
 function reload(): void {
 	location.reload();
 }
+
+// function check(str:string) {
+// 	return "The parenthese string is " + isValid(str) + "!"
+// }
