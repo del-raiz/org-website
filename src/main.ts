@@ -1,10 +1,10 @@
 //import { isValid } from './lib/parser';
 
-class Student {
+class Citizen {
 	fullName: string;
 
-	constructor(public firstName: string, public lastName: string, public country: string) {
-		this.fullName = firstName + " " + lastName + " from " + country;
+	constructor(public firstName: string, public lastName: string, public city: string) {
+		this.fullName = firstName + " " + lastName + " from " + city;
 	}
 }
 
@@ -25,7 +25,7 @@ function activate(id: string): void {
 function post(): any {
 	let para = document.createElement('h2');
 	para.setAttribute('id', 'world')
-	let student = new Student("Hello", ", World! ", "Watsonville, CA");
+	let student = new Citizen("Hello", ", World! ", "Watsonville, CA");
 	let string = greeter(student);
 	console.log(string);
 	let node = document.createTextNode(string);
