@@ -1,9 +1,8 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
-	"target": "es2018",
-    "module": "commonjs",
-    "sourceMap": true,
-    "experimentalDecorators": true
+      "module": "commonjs",
+      "sourceMap": true,
+      "experimentalDecorators": true
   }
 }
