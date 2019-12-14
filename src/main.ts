@@ -41,6 +41,6 @@ function reload(): void {
     location.reload();
 }
 
-function check(str: string) {
-    return "The parenthese string is " + isValid(str) + "!"
-}
+// function check(str: string) {
+//     return "The parenthese string is " + isValid(str) + "!"
+// }
