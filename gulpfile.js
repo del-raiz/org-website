@@ -10,7 +10,6 @@ const {
 } = require('gulp');
 const rimraf = require('rimraf');
 const ts = require('gulp-typescript');
-const sourcemaps = require('gulp-sourcemaps');
 
 let paths = {
 	scripts: {
@@ -34,9 +33,7 @@ let paths = {
 let tsProject = ts.createProject('tsconfig.json');
 function compile() {
 	return src(paths.scripts.src)
-		.pipe(sourcemaps.init())
 		.pipe(tsProject())
-		.pipe(sourcemaps.write())
 		.pipe(dest(paths.scripts.out));
 }
 
