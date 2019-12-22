@@ -1,0 +1,15 @@
+{
+	"name": "parent",
+	"id": "parent",
+	"childs": [{
+	  "name": "childA",
+	  "id": "parent/childA"
+	},{
+	  "name": "childB",
+	  "id": "parent/childB",
+	  "childs": [{
+		"name": "childC",
+		"id": "parent/childB/childC"
+	  }]
+	}]
+  }
