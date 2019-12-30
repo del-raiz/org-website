@@ -1,10 +1,8 @@
-"use strict";
 /*
 *----------------------------------------------------------------------------------------------
 *  Copyright (c) Almaraz Labs. All rights reserved.
 *  Licensed under the MIT License. See License.txt in the project root for license information.
 *--------------------------------------------------------------------------------------------*/
-exports.__esModule = true;
 //	function isValid - Complexity Analysis:
 //	  - Time Complexity: O(n) because we simply traverse the given string one character
 //      at a time and push and pop operations on a stack take O(1) time.
@@ -34,6 +32,6 @@ function isValid(stringp) {
     }
     return "Valid";
 }
-exports.isValid = isValid;
-console.log(isValid('{[(])}')); // False
-console.log(isValid('((()[]{}))')); // True
+export { isValid };
+//console.log(isValid('{[(])}')); // False
+//console.log(isValid('((()[]{}))')); // True

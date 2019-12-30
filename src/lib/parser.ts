@@ -37,5 +37,5 @@ function isValid(stringp: string): string {
 
 export { isValid };
 
-console.log(isValid('{[(])}')); // False
-console.log(isValid('((()[]{}))')); // True
+//console.log(isValid('{[(])}')); // False
+//console.log(isValid('((()[]{}))')); // True

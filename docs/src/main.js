@@ -1,4 +1,4 @@
-//import { isValid } from './lib/parser';
+// import { isValid } from './lib/parser';
 var Citizen = /** @class */ (function () {
     function Citizen(firstName, lastName, city) {
         this.firstName = firstName;
@@ -32,6 +32,6 @@ function post() {
 function reload() {
     location.reload();
 }
-// function check(str: string) {
-//     return "The parenthese string is " + isValid(str) + "!"
-// }
+//  function check(str: string) {
+//      return "The parenthese string is " + isValid(str) + "!"
+//  }
