@@ -11,7 +11,7 @@
 //    - Space Complexity: O(n) as we push all opening brackets onto the stack and in
 //      worst case, we will end up pushing all the brackets onto the stack.
 //
-function isValid(stringp: string): string {
+export default function isValid(stringp: string): string {
     const len: number = stringp.length;
     const map: object = {
         '(': ')',
@@ -35,7 +35,7 @@ function isValid(stringp: string): string {
     return "Valid";
 }
 
-export { isValid };
+// export { isValid };
 
 //console.log(isValid('{[(])}')); // False
 //console.log(isValid('((()[]{}))')); // True

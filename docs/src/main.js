@@ -1,4 +1,3 @@
-// import { isValid } from './lib/parser';
 var Citizen = /** @class */ (function () {
     function Citizen(firstName, lastName, city) {
         this.firstName = firstName;

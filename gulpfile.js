@@ -10,6 +10,8 @@ const {
 } = require('gulp');
 const rimraf = require('rimraf');
 const ts = require('gulp-typescript');
+const webpack_stream = require('webpack-stream')
+const webpack_config = require('./webpack.config.js');
 
 let paths = {
 	scripts: {

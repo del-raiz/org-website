@@ -1,4 +1,4 @@
-// import { isValid } from './lib/parser';
+import isValid from './lib/parser';
 
 class Citizen {
     fullName: string;
