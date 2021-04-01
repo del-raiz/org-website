@@ -14,4 +14,4 @@ package-lock.json
 
 # MacOS stuff
 .DS_Store
-*/**/.DS_Store
+**/.DS_Store
