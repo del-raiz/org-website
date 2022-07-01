@@ -7,6 +7,7 @@
 #+SETUPFILE: ~/.config/org-files/Templates/latex-export.org
 #+PROPERTY: header-args :tangle (let ((org-use-tag-inheritance t)) (if (member "INACTIVE" (org-get-tags)) "no" "~/Projects/website/website.el"))
 
+
 * Documentation
 
 ** Foreword
