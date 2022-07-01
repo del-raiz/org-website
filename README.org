@@ -1,0 +1,24 @@
+#+TITLE: Λ L M Λ R Λ Z  ★ L Λ B S
+#+SUBTITLE: My Personal Website
+
+* Introduction
+
+I originally built this website with the idea of using TypeScript to build a website from scratch, and I set up the build utilizing Gulp.js and webpack, however, due to my neglect the current system is quite outdated.
+
+After my adventures of deep-diving into all things Emacs related, I have become quite competent in Emacs Lisp as well as the infamous Org Mode, as well as many other things. This led me to pursue a personal website that is built entirely in an Emacs Lisp framework, utilizing Org Mode to publish my website - I have yet to figure out how all this works, but for now this is the first step by turning my README into an Org file.
+
+* Outline of Features to Implement
+
+This will act as a log of changes
+
+** Change README into Org file
+** Research [[https://orgmode.org/worg/org-web.html][Web Pages Made with Org-Mode]]
+** TODO Feature to Implement
+
+* License
+
+This code is licensed under GPLv3, until further noticed - I may choose to license under MIT or Unlicense (https://unlicense.org/).
+
+* Acknowledgements
+
+- TBD
