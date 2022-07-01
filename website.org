@@ -1,0 +1,56 @@
+#+TITLE: Personal Website
+#+SUBTITLE: /Λ L M Λ R Λ Z  ★ L Λ B S/
+#+AUTHOR: Erik P. Almaraz
+#+EMAIL: erik@almarazlabs.com
+#+DATE: 2022-07-01 Fri
+#+STARTUP: show2levels
+#+SETUPFILE: ~/.config/org-files/Templates/latex-export.org
+#+PROPERTY: header-args :tangle (let ((org-use-tag-inheritance t)) (if (member "INACTIVE" (org-get-tags)) "no" "~/Projects/website/website.el"))
+
+* Documentation
+
+** Foreword
+
+Each subsection may be tagged with:
+
+- =:INACTIVE: - Content of the section won't be exported=
+- =:BUGFIX:   - Section contains (temporary) bug fix code=
+- =:FIX:      - Sections needs to be fixed=
+- =:REFACTOR: - Section needs to be refactored=
+- =:WIP:      - Section is currently a Work In Progress=
+- =:noexport: - Content of the section won't be exported (org)=
+
+*** Notes
+
+Org Tags, export settings, etc.
+
+- Setting Tags: C-c C-q (org-set-tags-command)
+- Export Settings: SELECT-TAGS "export" and "noexport" (also an EXCLUDE-TAG)
+- Clean up echo area pollution from native emacs modules.
+  - recentf-cleanup (disable echo area messages) & loading message of recenf file.
+  - inhibit-startup-echo-area-message is not working.
+
+** References
+:PROPERTIES:
+:UNNUMBERED: nil
+:END:
+
+ 1. Last, F. M., *Title*, /Journal Name Abbrev.,/ YYYY, [[https://github.com/skribest][Link]] .
+ 2. Last, F. M., *Title*, /Journal Name Abbrev.,/ YYYY, [[https://github.com/skribest][Link]] .
+ 3. Last, F. M., *Title*, /Journal Name Abbrev.,/ YYYY, [[https://github.com/skribest][Link]] .
+ 4. Last, F. M., *Title*, /Journal Name Abbrev.,/ YYYY, [[https://github.com/skribest][Link]] .
+ 5. Last, F. M., *Title*, /Journal Name Abbrev.,/ YYYY, [[https://github.com/skribest][Link]] .
+
+* Core
+
+Set up the core features of this website to be made with Org-Mode, see [[https://orgmode.org/worg/org-web.html][WORG: Web Pages Made with Org-Mode]].
+
+** Bootstrap
+
+Setup features so Org can do it's magic...
+
+#+BEGIN_SRC emacs-lisp
+
+
+
+#+END_SRC
