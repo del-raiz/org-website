@@ -17,7 +17,7 @@ This will act as a log of changes
 
 * License
 
-This code is licensed under GPLv3, until further noticed - I may choose to license under MIT or Unlicense (https://unlicense.org/).
+This code is licensed under MIT, until further noticed - I may choose to license under GPLv3 or Unlicense (https://unlicense.org/).
 
 * Acknowledgements
 
