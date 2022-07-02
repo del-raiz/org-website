@@ -1,8 +1,0 @@
-{
-  "compileOnSave": false,
-  "compilerOptions": {
-      "module": "ES6",
-      "sourceMap": true,
-      "experimentalDecorators": true
-  }
-}
