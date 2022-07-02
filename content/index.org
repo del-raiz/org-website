@@ -1,11 +1,15 @@
-#+TITLE: /Λ L M A R A Z  ★ L Λ B S/
+#+TITLE:Λ L M A R A Z  ★ L Λ B S
 
 * Overview
 
 This is the very beginnings of my [[https://almarazlabs.com/][website]] written with [[https://orgmode.org/][Org-Mode]]!
 
+Authenticate your repo with [[https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-authentication-to-github#authenticating-with-the-command-line][GitHub: Authentication]].
+
+Use [[https://github.com/features/actions][GitHub Actions]] to run build scripts and/or services(?) on the cloud.
 * Liniks
 
 - [[https://github.com/skribest/website][GitHub: skribest/website]]
 - [[https://systemcrafters.net/publishing-websites-with-org-mode/building-the-site/][System Crafters: Build Your Website with Org Mode]]
+- [[https://systemcrafters.net/publishing-websites-with-org-mode/automated-site-publishing/][System Crafters: Automated Org Mode Website Publishing with GitHub or SourceHut]]
 - [[https://github.com/rougier/svg-tag-mode][GitHub: rougier/svg-tag-mode]]

@@ -12,6 +12,10 @@ package-lock.json
 # Ignore .js files in src
 /src/**/*.js
 
+# Ignore Library Packages
+.github
+.packages
+
 # MacOS stuff
 .DS_Store
 **/.DS_Store
