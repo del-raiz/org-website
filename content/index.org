@@ -1,0 +1,11 @@
+#+TITLE: /Λ L M A R A Z  ★ L Λ B S/
+
+* Overview
+
+This is the very beginnings of my [[https://almarazlabs.com/][website]] written with [[https://orgmode.org/][Org-Mode]]!
+
+* Liniks
+
+- [[https://github.com/skribest/website][GitHub: skribest/website]]
+- [[https://systemcrafters.net/publishing-websites-with-org-mode/building-the-site/][System Crafters: Build Your Website with Org Mode]]
+- [[https://github.com/rougier/svg-tag-mode][GitHub: rougier/svg-tag-mode]]

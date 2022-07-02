@@ -11,10 +11,10 @@ After my adventures of deep-diving into all things Emacs related, I have become 
 
 This will act as a log of changes
 
-** Change README into Org file
-** Research [[https://systemcrafters.net/publishing-websites-with-org-mode/building-the-site/][System Crafters: Build Your Website with Org Mode]] & Emacs/Org Manuals
-** Create Build Script (Shell & Emacs Lisp) to build out pages/website
-** Set up Org Publishing Configuration
+** DONE Change README into Org file
+** DONE Research Emacs/Org Manuals on  Exporting to HTML, and the [[https://systemcrafters.net/publishing-websites-with-org-mode/building-the-site/][web]]!
+** DONE Create Build Script (Shell & Emacs Lisp) to build out pages/website
+** DONE Set up Org Publishing Configuration
 ** Optimize generated HTML Output
 ** More Advanced topics to come...
 
