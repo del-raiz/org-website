@@ -9,6 +9,9 @@
 
 * Documentation
 
+Build Configuration for this website, see [[https://systemcrafters.net/publishing-websites-with-org-mode/building-the-site/][System Crafters : Build Your Website with Org Mode]].
+See also Emacs Manual on Org Publishing.
+
 ** Foreword
 
 Each subsection may be tagged with:
@@ -42,13 +45,7 @@ Org Tags, export settings, etc.
  5. Last, F. M., *Title*, /Journal Name Abbrev.,/ YYYY, [[https://github.com/skribest][Link]] .
 
 
-* Build Configuration
-
-Build Configuration for this website, see [[https://systemcrafters.net/publishing-websites-with-org-mode/building-the-site/][System Crafters : Build Your Website with Org Mode]].
-
-See also Emacs Manual on Org Publishing.
-
-** build.sh
+* build.sh
 :PROPERTIES:
 :header-args:emacs-lisp: :tangle (let ((org-use-tag-inheritance t)) (if (member "INACTIVE" (org-get-tags)) "no" "~/Projects/website/build.sh"))
 :END:
@@ -61,7 +58,8 @@ Shell script to run the Emacs Lisp HTML publishing configuration script. Don't f
 
 #+END_SRC
 
-** Header (build-site.el)
+
+* Header (build-site.el)
 
 #+BEGIN_SRC emacs-lisp
   ;;; build-site.el --- Website Build Script Emacs Lisp  -*- lexical-binding: t; -*-
@@ -76,7 +74,8 @@ Shell script to run the Emacs Lisp HTML publishing configuration script. Don't f
 
 #+END_SRC
 
-** Initialization
+
+* Initialization
 
 This script in Emacs Lisp will generate HTML files for Org documents by running a shell command.
 
@@ -98,29 +97,28 @@ This script in Emacs Lisp will generate HTML files for Org documents by running 
   (package-install 'htmlize)
 
   ;; Load the publishing system
-  (require 'org)
+  ;;(require 'org)
   (require 'ox-publish)
 
 #+END_SRC
 
-** Publish Settings
 
-*** Customize HTML Output
+* Publish Settings
 
+Customize HTML Output.
 
 #+BEGIN_SRC emacs-lisp
 
-    ;; Customize the HTML output
-    (setq org-html-validation-link nil            ;; Don't show validation link
-          org-html-head-include-scripts nil       ;; Use our own scripts
-          org-html-head-include-default-style nil ;; Use our own styles
-          org-html-head "<link rel=\"stylesheet\" href=\"https://cdn.simplecss.org/simple.min.css\" />")
+  ;; Customize the HTML output
+  (setq org-html-validation-link t              ;; Don't not show validation link
+        org-html-head-include-scripts nil       ;; Use our own scripts
+        org-html-head-include-default-style nil ;; Use our own styles
+        org-html-head "<link rel=\"stylesheet\" href=\"https://cdn.simplecss.org/simple.min.css\" />")
 
 
 #+END_SRC
 
-*** Define Publishing Project
-
+Define Publishing Project
 
 #+BEGIN_SRC emacs-lisp
 
@@ -143,7 +141,8 @@ This script in Emacs Lisp will generate HTML files for Org documents by running 
 
 #+END_SRC
 
-** Complete
+
+* Complete
 
 #+BEGIN_SRC emacs-lisp
 
