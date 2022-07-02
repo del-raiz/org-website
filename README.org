@@ -12,8 +12,11 @@ After my adventures of deep-diving into all things Emacs related, I have become 
 This will act as a log of changes
 
 ** Change README into Org file
-** Research [[https://orgmode.org/worg/org-web.html][Web Pages Made with Org-Mode]]
-** TODO Feature to Implement
+** Research [[https://systemcrafters.net/publishing-websites-with-org-mode/building-the-site/][System Crafters: Build Your Website with Org Mode]] & Emacs/Org Manuals
+** Create Build Script (Shell & Emacs Lisp) to build out pages/website
+** Set up Org Publishing Configuration
+** Optimize generated HTML Output
+** More Advanced topics to come...
 
 * License
 
@@ -21,4 +24,6 @@ This code is licensed under MIT, until further noticed - I may choose to license
 
 * Acknowledgements
 
-- TBD
+- David Wilson (append [[https://systemcrafters.net/][System Crafters]] [[https://github.com/SystemCrafters][GitHub: SystemCrafters]] [[https://github.com/daviwil][GitHub: daviwil]])
+- Org Community
+- Emacs Community
