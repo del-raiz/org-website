@@ -1,20 +1,8 @@
 # dependencies
-/node_modules
-
-# IDE - Visual Studio
-.vs/*
-#.vscode/**/*
+.packages
 
 # misc
-/typings
 package-lock.json
-
-# Ignore .js files in src
-/src/**/*.js
-
-# Ignore Library Packages
-.packages
-.github
 
 # MacOS stuff
 .DS_Store
