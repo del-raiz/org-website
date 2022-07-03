@@ -2,7 +2,8 @@
 #+SUBTITLE: My Personal Website
 #+STARTUP: show2levels
 #+SETUPFILE: ~/.config/org-files/Templates/latex-export.org
-#
+
+
 * Introduction
 
 I originally built this website with the idea of using TypeScript to build a website from scratch, and I set up the build utilizing Gulp.js and webpack, however, due to my neglect the current system is quite outdated.
@@ -28,8 +29,13 @@ This will act as a log of changes
 This website and its code is licensed under MIT, until further noticed - I may choose to license under Unlicense (https://unlicense.org/).
 
 
-* Acknowledgements
+* References
+:PROPERTIES:
+:UNNUMBERED: nil
+:END:
 
-- David Wilson (append [[https://systemcrafters.net/][System Crafters]] [[https://github.com/SystemCrafters][GitHub: SystemCrafters]] [[https://github.com/daviwil][GitHub: daviwil]])
-- Org Community
-- Emacs Community
+ 1. Wilson, D., *Build Your Website with Org Mod*, /System Crafters/, 2021, [[https://systemcrafters.net/publishing-websites-with-org-mode/building-the-site/][Link]] .
+ 2. Wilson, D., *Automated Org Mode Website Publishing...*, /System Crafters/, 2021, [[https://systemcrafters.net/publishing-websites-with-org-mode/automated-site-publishing/][Link]] .
+ 3. Quirk, K., *Simple.css - A classless CSS framework*, /Simple.css/, 2022, [[https://simplecss.org/][Link]] .
+ 4. Org Community .
+ 5. Emacs Community .
