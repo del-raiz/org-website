@@ -1,2 +1,2 @@
-#!/bin/zsh
+#!/bin/sh
 emacs -Q --script build-site.el

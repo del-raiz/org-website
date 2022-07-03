@@ -54,7 +54,7 @@ Org Tags, export settings, etc.
 Shell script to run the Emacs Lisp HTML publishing configuration script. Don't forget to make the  script executable with =chmod +x build.sh=...
 
 #+BEGIN_SRC sh :tangle "~/Projects/website/build.sh"
-  #!/bin/zsh
+  #!/bin/sh
   emacs -Q --script build-site.el
 
 #+END_SRC
