@@ -3,13 +3,35 @@
 
 * Overview
 
-This is the very beginnings of my [[https://github.com/skribest/org-website][org-website]] written in [[https://www.gnu.org/software/emacs/][Emacs Lisp]] and powered by [[https://orgmode.org/][Org Mode]]!
+This is the very beginnings of my [[https://github.com/skribest/org-website][org-website]] written and built in [[https://www.gnu.org/software/emacs/][Emacs Lisp]] with [[https://orgmode.org/][Org Mode]]!
 
 More to come content-wise in the /Cosmetic Chemistry/ space, and of course my adventures in all things *Emacs*, so stay tuned...  But first we must set up the infrastructure.
 
 In the meantime, see below for references that helped set the foundation of my work.
 
-** Links
+* Projects
+
+Here is a list of the projects that I am actively working on:
+
+** Emacs
+
+*** This Website
+
+*** Emacs Lisp Utilities & Personal Configuration
+
+*** Chembook.org (chembook.el)
+
+*** Lledger.org (lledger.el)
+
+
+** Cosmetic Chemistry
+
+*** Cosmetic Chemistry - Theoretically (proposed YouTube Channel)
+
+*** Prepraration for channel and Show Notes
+
+
+* Links
 
 - [[https://systemcrafters.net/publishing-websites-with-org-mode/building-the-site/][System Crafters: Build Your Website with Org Mode]]
 - [[https://systemcrafters.net/publishing-websites-with-org-mode/automated-site-publishing/][System Crafters: Automated Org Mode Website Publishing with GitHub or SourceHut]]
