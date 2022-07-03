@@ -1,4 +1,5 @@
 #+TITLE:Λ L M A R A Z  ★ L Λ B S
+#+AUTHOR: Erik Almaraz
 
 * Overview
 
