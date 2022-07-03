@@ -17,27 +17,33 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org88fea3d">Overview</a></li>
-<li><a href="#orgbf3ee3f">Liniks</a></li>
+<li><a href="#org90d0103">Overview</a></li>
+<li><a href="#org66f392e">Liniks</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org88fea3d" class="outline-2">
-<h2 id="org88fea3d">Overview</h2>
-<div class="outline-text-2" id="text-org88fea3d">
+<div id="outline-container-org90d0103" class="outline-2">
+<h2 id="org90d0103">Overview</h2>
+<div class="outline-text-2" id="text-org90d0103">
 <p>
 This is the very beginnings of my <a href="https://almarazlabs.com/">website</a> written with <a href="https://orgmode.org/">Org-Mode</a>!
+</p>
+
+<p>
+Use <a href="https://github.com/features/actions">GitHub Actions</a> to run build scripts and/or services(?) on the cloud, this actually automatically created a gh-pages branch, there was a somewhat confusing process  where I re-created 'master' branch&#x2026;
 </p>
 </div>
 </div>
 
-<div id="outline-container-orgbf3ee3f" class="outline-2">
-<h2 id="orgbf3ee3f">Liniks</h2>
-<div class="outline-text-2" id="text-orgbf3ee3f">
+
+<div id="outline-container-org66f392e" class="outline-2">
+<h2 id="org66f392e">Liniks</h2>
+<div class="outline-text-2" id="text-org66f392e">
 <ul class="org-ul">
 <li><a href="https://github.com/skribest/website">GitHub: skribest/website</a></li>
 <li><a href="https://systemcrafters.net/publishing-websites-with-org-mode/building-the-site/">System Crafters: Build Your Website with Org Mode</a></li>
+<li><a href="https://systemcrafters.net/publishing-websites-with-org-mode/automated-site-publishing/">System Crafters: Automated Org Mode Website Publishing with GitHub or SourceHut</a></li>
 <li><a href="https://github.com/rougier/svg-tag-mode">GitHub: rougier/svg-tag-mode</a></li>
 </ul>
 </div>
