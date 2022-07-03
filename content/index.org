@@ -13,5 +13,5 @@ In the meantime, see below for references that helped set the foundation of my w
 
 - [[https://systemcrafters.net/publishing-websites-with-org-mode/building-the-site/][System Crafters: Build Your Website with Org Mode]]
 - [[https://systemcrafters.net/publishing-websites-with-org-mode/automated-site-publishing/][System Crafters: Automated Org Mode Website Publishing with GitHub or SourceHut]]
-- [[https://github.com/skribest/website][GitHub: skribest/website]]
-- [[https://github.com/rougier/svg-tag-mode][GitHub: rougier/svg-tag-mode]]
+- [[https://simplecss.org/][Simple.css - A Classless CSS framework]]
+- [[https://github.com/skribest/org-website][Source Code to this Website]]
