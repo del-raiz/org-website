@@ -1,11 +1,14 @@
 #+TITLE: Λ L M A R A Z  ★ L Λ B S
 #+SUBTITLE: My Personal Website
-
+#+STARTUP: show2levels
+#+SETUPFILE: ~/.config/org-files/Templates/latex-export.org
+#
 * Introduction
 
 I originally built this website with the idea of using TypeScript to build a website from scratch, and I set up the build utilizing Gulp.js and webpack, however, due to my neglect the current system is quite outdated.
 
 After my adventures of deep-diving into all things Emacs related, I have become quite competent in Emacs Lisp as well as the infamous Org Mode, as well as many other things. This led me to pursue a personal website that is built entirely in an Emacs Lisp framework, utilizing Org Mode to publish my website - I have yet to figure out how all this works, but for now this is the first step by turning my README into an Org file.
+
 
 * Outline of Features to Implement
 
@@ -16,11 +19,14 @@ This will act as a log of changes
 - DONE +Create Build Script (Shell & Emacs Lisp) to build out pages/website+
 - DONE +Set up Org Publishing Configuration+
 - TODO Optimize generated HTML Output
-- TODO More Advanced topics to come...
+- TODO Setup GitHub Actions
+- TODO Investigate more Advanced Org Website capabilities.
+
 
 * License
 
-This code is licensed under MIT, until further noticed - I may choose to license under GPLv3 or Unlicense (https://unlicense.org/).
+This website and its code is licensed under MIT, until further noticed - I may choose to license under Unlicense (https://unlicense.org/).
+
 
 * Acknowledgements
 

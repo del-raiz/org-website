@@ -48,6 +48,7 @@ Org Tags, export settings, etc.
 * build.sh
 :PROPERTIES:
 :header-args:emacs-lisp: :tangle (let ((org-use-tag-inheritance t)) (if (member "INACTIVE" (org-get-tags)) "no" "~/Projects/website/build.sh"))
+:ORDERED:  t
 :END:
 
 Shell script to run the Emacs Lisp HTML publishing configuration script. Don't forget to make the  script executable with =chmod +x build.sh=...
