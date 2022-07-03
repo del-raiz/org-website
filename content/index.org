@@ -4,9 +4,9 @@
 
 This is the very beginnings of my [[https://almarazlabs.com/][website]] written with [[https://orgmode.org/][Org-Mode]]!
 
-Authenticate your repo with [[https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-authentication-to-github#authenticating-with-the-command-line][GitHub: Authentication]].
+Use [[https://github.com/features/actions][GitHub Actions]] to run build scripts and/or services(?) on the cloud, this actually automatically created a gh-pages branch, there was a somewhat confusing process  where I re-created 'master' branch...
 
-Use [[https://github.com/features/actions][GitHub Actions]] to run build scripts and/or services(?) on the cloud.
+
 * Liniks
 
 - [[https://github.com/skribest/website][GitHub: skribest/website]]
