@@ -2,14 +2,14 @@
 
 * Overview
 
-This is the very beginnings of my [[https://almarazlabs.com/][website]] written with [[https://orgmode.org/][Org-Mode]]!
+This is the very beginnings of my [[https://github.com/skribest/org-website][org-website]] written in [[https://www.gnu.org/software/emacs/][Emacs Lisp]] and powered by [[https://orgmode.org/][Org-Mode]]!
 
 Use [[https://github.com/features/actions][GitHub Actions]] to run build scripts and/or services(?) on the cloud, this actually automatically created a gh-pages branch, there was a somewhat confusing process  where I re-created 'master' branch...
 
 
-* Liniks
+* Links
 
-- [[https://github.com/skribest/website][GitHub: skribest/website]]
 - [[https://systemcrafters.net/publishing-websites-with-org-mode/building-the-site/][System Crafters: Build Your Website with Org Mode]]
 - [[https://systemcrafters.net/publishing-websites-with-org-mode/automated-site-publishing/][System Crafters: Automated Org Mode Website Publishing with GitHub or SourceHut]]
+- [[https://github.com/skribest/website][GitHub: skribest/website]]
 - [[https://github.com/rougier/svg-tag-mode][GitHub: rougier/svg-tag-mode]]
