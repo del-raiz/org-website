@@ -9,9 +9,10 @@ More to come content-wise in the /Cosmetic Chemistry/ space, and of course my ad
 
 In the meantime, see below for references that helped set the foundation of my work.
 
-* Links
+** Links
 
 - [[https://systemcrafters.net/publishing-websites-with-org-mode/building-the-site/][System Crafters: Build Your Website with Org Mode]]
 - [[https://systemcrafters.net/publishing-websites-with-org-mode/automated-site-publishing/][System Crafters: Automated Org Mode Website Publishing with GitHub or SourceHut]]
 - [[https://simplecss.org/][Simple.css - A Classless CSS framework]]
+- [[https://orgmode.org/worg/org-web.html][Worg: Web Pages Made with Org-Mode]]
 - [[https://github.com/skribest/org-website][Source Code to this Website]]
