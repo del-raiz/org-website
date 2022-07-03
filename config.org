@@ -1,4 +1,4 @@
-#+TITLE: Build-Site.org
+#+TITLE: config.org
 #+SUBTITLE: /Λ L M Λ R Λ Z  ★ L Λ B S/
 #+AUTHOR: Erik P. Almaraz
 #+EMAIL: erik@almarazlabs.com
@@ -11,6 +11,9 @@
 
 Build Configuration for this website, see [[https://systemcrafters.net/publishing-websites-with-org-mode/building-the-site/][System Crafters : Build Your Website with Org Mode]].
 See also Emacs Manual on Org Publishing.
+
+I've captured this in my usual Org Babel Notebook type configuration. You will find automation for the `build.sh' needed for this build, as well as the Emacs Lisp build script `build-site.el'.
+
 
 ** Foreword
 

@@ -13,7 +13,8 @@ package-lock.json
 /src/**/*.js
 
 # Ignore Library Packages
-
+.packages
+.github
 
 # MacOS stuff
 .DS_Store
