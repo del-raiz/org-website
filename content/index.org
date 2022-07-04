@@ -6,7 +6,7 @@
 #+END_COMMENT
 #+SETUPFILE: https://cdn.simplecss.org/simple.min.css
 #+OPTIONS: num:nil ^:{}
-#+INCLUDE:
+#+INCLUDE: "./header.org"
 #+ATTR_HTML:
 
 * Overview
@@ -23,20 +23,20 @@ Here is a list of the projects that I am actively working on:
 
 ** Emacs
 
-*** This Website
+- This Website
 
-*** Emacs Lisp Utilities & Personal Configuration
+- Emacs Lisp Utilities & Personal Configuration
 
-*** Chembook.org (chembook.el)
+- Chembook.org (chembook.el)
 
-*** Lledger.org (lledger.el)
+- Lledger.org (lledger.el)
 
 
 ** Cosmetic Chemistry
 
-*** Cosmetic Chemistry - Theoretically (proposed YouTube Channel)
+- Cosmetic Chemistry - Theoretically (proposed YouTube Channel)
 
-*** Prepraration for channel and Show Notes
+- Prepraration for channel and Show Notes
 
 
 * Links
