@@ -141,7 +141,7 @@ Define Publishing Project
                :exclude "org-html-themes/.*"
                :publishing-function 'org-html-publish-to-html
                :headline-levels 4   ; default for now
-               :with-aurthor nil
+               :with-aurthor t
                :with-creator t
                :with-toc t
                :section-numbers nil
