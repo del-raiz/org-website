@@ -13,7 +13,7 @@
 
 * Overview
 
-This is the very beginnings of my [[https://github.com/skribest/org-website][org-website]] written and built in [[https://www.gnu.org/software/emacs/][Emacs Lisp]] with [[https://orgmode.org/][Org Mode]]!
+This is the very beginnings of my [[https://github.com/skribest/org-website][website]] built in [[https://www.gnu.org/software/emacs/][Emacs]] written in [[https://orgmode.org/][Org Mode]] and [[https://www.gnu.org/software/emacs/manual/html_node/elisp/index.html][Emacs Lisp]].
 
 More to come content-wise in the /Cosmetic Chemistry/ space, and of course my adventures in all things *Emacs*, so stay tuned...  But first we must set up the infrastructure.
 
