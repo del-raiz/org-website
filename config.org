@@ -56,6 +56,8 @@ Org Tags, export settings, etc.
 
 Shell script to run the Emacs Lisp HTML publishing configuration script. Don't forget to make the  script executable with =chmod +x build.sh=...
 
+I am wondering if there is a way to tell Emacs to generate this file, but with the appropriate permissions...
+
 #+BEGIN_SRC sh :tangle "~/Projects/website/build.sh"
   #!/bin/sh
   emacs -Q --script build-site.el
@@ -116,8 +118,9 @@ Customize HTML Output.
   ;; Customize the HTML output
   (setq org-html-validation-link t              ;; Don't not show validation link
         org-html-head-include-scripts nil       ;; Use our own scripts
-        org-html-head-include-default-style nil ;; Use our own styles
-        org-html-head "<link rel=\"stylesheet\" href=\"https://cdn.simplecss.org/simple.min.css\" />")
+        org-html-head-include-default-style nil) ;; Use our own styles
+  ;; Let's try out a different method.
+  ;; org-html-head "<link rel=\"stylesheet\" href=\"https://cdn.simplecss.org/simple.min.css\" />")
 
 
 #+END_SRC
@@ -129,18 +132,22 @@ Define Publishing Project
   ;; Define the publishing project
   (setq org-publish-project-alist
         (list
-         (list "website"
-               :recursive t
+         (list "org-website"
                :base-directory "./content"
+               :base-extension "org"
                :publishing-directory "./docs"
+               :recursive t
+               :exclude "org-html-themes/.*"
                :publishing-function 'org-html-publish-to-html
+               :headline-levels 4   ; default for now
                :with-aurthor nil
                :with-creator t
                :with-toc t
                :section-numbers nil
-               :time-stamp-file nil)))
+               :time-stamp-file t
+               :auto-preamble t)))
 
-  ;; Generate the site output
+  ;; Genejrate the site output
   (org-publish-all t)
 
 #+END_SRC
