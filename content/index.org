@@ -1,4 +1,5 @@
-#+TITLE:Λ L M A R A Z  •  L Λ B S
+#+TITLE:Λ L M A R A Z  -  L Λ B S
+#+SUBTITLE:  ( Λ L | L Λ )
 #+AUTHOR: Erik Almaraz
 #+DESCRIPTION: almarazlabs.com - Official Site of  Λ L M A R A Z  •  L Λ B S
 #+BEGIN_COMMENT
@@ -6,7 +7,7 @@
 #+END_COMMENT
 #+SETUPFILE: https://cdn.simplecss.org/simple.min.css
 #+OPTIONS: num:nil ^:{}
-#+INCLUDE: "./header.org"
+#+INCLUDE: "~/Projects/org-website/content/header.org"
 #+ATTR_HTML:
 
 * Overview
