@@ -41,6 +41,6 @@ Here is a list of the projects that I am actively working on:
 - [[https://systemcrafters.net/publishing-websites-with-org-mode/building-the-site/][System Crafters: Build Your Website with Org Mode]]
 - [[https://systemcrafters.net/publishing-websites-with-org-mode/automated-site-publishing/][System Crafters: Automated Org Mode Website Publishing with GitHub or SourceHut]]
 - [[https://simplecss.org/][Simple.css - A Classless CSS framework]]
-- [[https://gitlab.com/dwt1/distro.tube][GitLab: Derek Taylor > distro.tube - An Org Mode based website]]
+- [[https://github.com/fniessen/org-html-themes][GitHub: fniessen/org-html-themes]]
 - [[https://orgmode.org/worg/org-web.html][Worg: Web Pages Made with Org-Mode]]
 - [[https://github.com/skribest/org-website][Source Code to this Website]]
