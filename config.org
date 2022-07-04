@@ -162,15 +162,3 @@ Define Publishing Project
 
   ;;; end build-site.el
 #+END_SRC
-
-
-* References
-:PROPERTIES:
-:UNNUMBERED: nil
-:END:
-
- 1. Last, F. M., *Title*, /Journal Name Abbrev.,/ YYYY, [[https://github.com/skribest][Link]] .
- 2. Last, F. M., *Title*, /Journal Name Abbrev.,/ YYYY, [[https://github.com/skribest][Link]] .
- 3. Last, F. M., *Title*, /Journal Name Abbrev.,/ YYYY, [[https://github.com/skribest][Link]] .
- 4. Last, F. M., *Title*, /Journal Name Abbrev.,/ YYYY, [[https://github.com/skribest][Link]] .
- 5. Last, F. M., *Title*, /Journal Name Abbrev.,/ YYYY, [[https://github.com/skribest][Link]] .
