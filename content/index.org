@@ -25,13 +25,13 @@ Here is a list of the projects that I am actively working on:
 
 ** Emacs
 
-- This Website
+- This Website - my personal website, curriculum vitae, blog, and perhaps more
 
 - Emacs Lisp Utilities & Personal Configuration
 
-- Chembook.org (chembook.el)
+- Chembook.org (chembook.el) - a project I am still defining out, more to come
 
-- Lledger.org (lledger.el)
+- Lledger.org (lledger.el) - similarily, a project that is more or less a rough idea.
 
 
 ** Cosmetic Chemistry
