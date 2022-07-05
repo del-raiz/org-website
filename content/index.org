@@ -31,14 +31,21 @@ Here is a list of the projects that I am actively working on:
 
 - Chembook.org (chembook.el) - a project I am still defining out, more to come
 
-- Lledger.org (lledger.el) - similarily, a project that is more or less a rough idea.
+- Lledger.org (lledger.el) - similarly, a project that is more or less a rough idea.
 
 
 ** Cosmetic Chemistry
 
 - Cosmetic Chemistry - Theoretically (proposed YouTube Channel)
 
-- Prepraration for channel and Show Notes
+- Sneak Peak at upcoming show notes:
+  - "The HLB System: The Basics"
+  - "The HLB System: Advanced Concepts"
+  - "The HLB System: Empirical vs Theoretical"
+  - "What the Surfactant: The Basics"
+  - "What the Surfactant: Detergents"
+  - "What the Surfactant: Emulsifiers"
+  - "Natural vs NOT: What's HOT vs What's NOT"
 
 
 * References
