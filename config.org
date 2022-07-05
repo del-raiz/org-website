@@ -148,7 +148,7 @@ Define Publishing Project
                :time-stamp-file t
                :auto-preamble t)))
 
-  ;; Genejrate the site output
+  ;; Generate the site output
   (org-publish-all t)
 
 #+END_SRC
