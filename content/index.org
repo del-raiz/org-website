@@ -2,9 +2,6 @@
 #+SUBTITLE:  ( Λ L | L Λ )
 #+AUTHOR: Erik Almaraz
 #+DESCRIPTION: almarazlabs.com - Official Site of  Λ L M A R A Z  •  L Λ B S
-#+BEGIN_COMMENT
-#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
-#+END_COMMENT
 #+SETUPFILE: https://cdn.simplecss.org/simple.min.css
 #+SETUPFILE:
 #+OPTIONS: num:nil ^:{}
