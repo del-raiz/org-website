@@ -6,9 +6,9 @@
 #+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
 #+END_COMMENT
 #+SETUPFILE: https://cdn.simplecss.org/simple.min.css
-#+SETUPFILE:
+#+SETUPFILE: ~/Projects/org-website/content/css/main.css
 #+OPTIONS: num:nil ^:{}
-#+INCLUDE:
+#+INCLUDE: ~/Projects/org-website/content/header.org
 #+ATTR_HTML:
 
 * Overview

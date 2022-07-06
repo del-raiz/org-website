@@ -1,7 +1,7 @@
 #+DESCRIPTION: Header
 #+SETUPFILE: https://cdn.simplecss.org/simple.min.css
+#+SETUPFILE: ~/Projects/org-website/content/css/main.css
 #+OPTIONNS: num:nil ^:{}
-#+INCLUDE: "~/Projects/org-website/content/css/main.css"
 
 
 #+BEGIN_export html
