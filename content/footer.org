@@ -1,5 +1,5 @@
 #+DESCRIPTION: Footer
 #+SETUPFILE:
-#+OPTIONS: num:nil ^{}
+#+OPTIONS:
 
 * Footer
