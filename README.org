@@ -6,11 +6,11 @@
 
 * Introduction
 
-I originally built this website with the idea of using TypeScript to build a website from scratch, and I set up the build utilizing Gulp.js and webpack, however, due to my neglect the current system is quite outdated and broken (from the standpoint of not being able to easily progress if forward).
+I originally built this website with the idea of creating my own web application framework for gaming using TypeScript, Gulp.js, webpack and Babylon.js. However, life happened and well this framework was difficult to maintain and was minimal at best. And due to my neglect over the past two years, it became so outdated that getting it working again was more work than developing a new system.
 
-After my adventures of deep-diving into all things Emacs related, and presented the /necessity/ to update my much outdated website, this led me to do so using Emacs' infamous Org Mode.
+Then, after my adventures of deep-diving into all things Emacs related and presented with the /necessity/ to update my much outdated website, this led me to do so using Emacs' infamous Org Mode.
 
-This is work is still in the very early stage of development, so there are many things to figure out - such as the exact type of site I want to build.
+This work is still in the very early stages of development, so there are many things to figure out - such as the exact type of site I want to build.
 
 
 * Outline of Features to Implement
