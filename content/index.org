@@ -2,7 +2,7 @@
 #+SUBTITLE:  ( Λ L | L Λ )
 #+AUTHOR: Erik Almaraz
 #+DESCRIPTION: almarazlabs.com - Official Site of  Λ L M A R A Z  •  L Λ B S
-#+SETUPFILE: "https://cdn.simplecss.org/simple.css"
+#+SETUPFILE:
 #+INCLUDE:
 #+ATTR_HTML:
 #+OPTIONS:
