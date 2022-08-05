@@ -1,5 +1,4 @@
 #+TITLE:Λ L M A R A Z  -  L Λ B S
-#+SUBTITLE:  ( Λ L | L Λ )
 #+AUTHOR: Erik Almaraz
 #+DESCRIPTION: almarazlabs.com - Official Site of  Λ L M A R A Z  •  L Λ B S
 #+SETUPFILE:
