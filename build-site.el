@@ -23,38 +23,36 @@
 (package-install 'htmlize)
 
 ;; Load the publishing system
-;;(require 'org)
 (require 'ox-publish)
 
 ;; Customize the HTML output
-(setq org-html-validation-link t              ;; Don't not show validation link
-      org-html-head-include-scripts nil       ;; Use our own scripts
+(setq org-html-validation-link t               ;; Don't not show validation link
+      org-html-head-include-scripts nil        ;; Use our own scripts
       org-html-head-include-default-style nil) ;; Use our own styles
 
-;; Let's try out a different method.
-;; org-html-head "<link rel=\"stylesheet\" href=\"https://cdn.simplecss.org/simple.min.css\" />")
+(setq org-html-head (concat "<link rel=\"stylesheet\" "
+                            "href=\"https://cdn.simplecss.org/simple.min.css\"/>"))
 
 ;; Define the publishing project
 (setq org-publish-project-alist
-      (list
-       (list "org-website"
-             :base-directory "./content"
-             :base-extension "org"
-             :publishing-directory "./docs"
-             :recursive t
-             :exclude "org-html-themes/.*"
-             :publishing-function 'org-html-publish-to-html
-             :headline-levels 4   ; default for now
-             :with-aurthor t
-             :with-creator t
-             :with-toc t
-             :section-numbers nil
-             :time-stamp-file t
-             :auto-preamble t)))
+      '(("org-website"
+         :base-directory "./content"
+         :base-extension "org"
+         :publishing-directory "./docs"
+         :recursive t
+         :exclude "org-html-themes/.*"
+         :publishing-function 'org-html-publish-to-html
+         :headline-levels 4
+         :with-aurthor t
+         :with-creator t
+         :with-toc t
+         :section-numbers nil
+         :time-stamp-file t
+         :auto-preamble t)))
 
-;; Generate the site output
+
 (org-publish-all t)
-
 (message "Build complete!")
+
 
 ;;; end build-site.el
