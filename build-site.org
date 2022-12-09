@@ -53,7 +53,7 @@ Org Tags, export settings, etc.
 
 * build.sh
 :properties:
-:header-args:emacs-lisp: :tangle (let ((org-use-tag-inheritance t)) (if (member "INACTIVE" (org-get-tags)) "no" "~/Projects/org-website/build.sh"))
+:header-args:emacs-lisp: :tangle (let ((org-use-tag-inheritance t)) (if (member "off" (org-get-tags)) "no" "~/Projects/org-website/build.sh"))
 :ORDERED:  t
 :end:
 
@@ -69,9 +69,10 @@ I am wondering if there is a way to tell Emacs to generate this file, but with t
 
 With upcomming Emacs 29, there will be intrinsic support for scripts, it now supports the =-x= option, which executes scripts written in Emacs Lisp. When executing such a script with =#!/usr/bin/emacs -x= as its shebang, Emacs will not read its init file (similarily to =-Q=) and will instead execute the Elisp code right away and return the last value to the caller of the script (most likely the shell you called the script from). We can remove the need for a =build.sh= or a =build.ps1=.
 
+
 * build-site.el
 :properties:
-:header-args:emacs-lisp: :tangle (let ((org-use-tag-inheritance t)) (if (member "INACTIVE" (org-get-tags)) "no" "~/Projects/org-website/build-site.el"))
+:header-args:emacs-lisp: :tangle (let ((org-use-tag-inheritance t)) (if (member "off" (org-get-tags)) "no" "~/Projects/org-website/build-site.el"))
 :ORDERED:  t
 :end:
 
@@ -119,8 +120,8 @@ Customize HTML Output.
 #+BEGIN_SRC emacs-lisp
 
   ;; Customize the HTML output
-  (setq org-html-validation-link t              ;; Don't not show validation link
-        org-html-head-include-scripts nil       ;; Use our own scripts
+  (setq org-html-validation-link t               ;; Don't not show validation link
+        org-html-head-include-scripts nil        ;; Use our own scripts
         org-html-head-include-default-style nil) ;; Use our own styles
 
   (setq org-html-head (concat "<link rel=\"stylesheet\" "
@@ -133,20 +134,21 @@ Define Publishing Project
 #+BEGIN_SRC emacs-lisp
 
   (setq org-publish-project-alist
-        '(("org-website"
-           :base-directory "./content"
-           :base-extension "org"
-           :publishing-directory "./docs"
-           :recursive t
-           :exclude "org-html-themes/.*"
-           :publishing-function 'org-html-publish-to-html
-           :headline-levels 4   ; default for now
-           :with-aurthor t
-           :with-creator t
-           :with-toc t
-           :section-numbers nil
-           :time-stamp-file t
-           :auto-preamble t)))
+        (list
+         (list "org-website"
+               :base-directory "./content"
+               :base-extension "org"
+               :publishing-directory "./docs"
+               :recursive t
+               :exclude "org-html-themes/.*"
+               :publishing-function 'org-html-publish-to-html
+               :headline-levels 4   ; default for now
+               :with-aurthor t
+               :with-creator t
+               :with-toc t
+               :section-numbers nil
+               :time-stamp-file t
+               :auto-preamble t)))
 
   (org-publish-all t)
 

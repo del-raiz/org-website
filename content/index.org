@@ -1,10 +1,14 @@
 #+TITLE:Λ L M A R A Z  -  L Λ B S
 #+AUTHOR: Erik Almaraz
 #+DESCRIPTION: almarazlabs.com - Official Site of  Λ L M A R A Z  •  L Λ B S
+:args:
+
 #+SETUPFILE:
 #+INCLUDE:
 #+ATTR_HTML:
 #+OPTIONS:
+
+:end:
 
 * Overview
 
@@ -13,6 +17,7 @@ This is the very beginnings of my [[https://github.com/skribest/org-website][web
 More to come content-wise in the /Cosmetic Chemistry/ space, and of course my adventures in all things *Emacs*, so stay tuned...  But first we must set up the infrastructure.
 
 In the meantime, see below for references that helped set the foundation of my work.
+
 
 * Projects
 
@@ -26,9 +31,6 @@ Here is a list of the projects that I am actively working on:
 
 - Chembook.org (chembook.el) - a project I am still defining out, more to come
 
-- Lledger.org (lledger.el) - similarly, a project that is more or less a rough idea.
-
-
 ** Cosmetic Chemistry
 
 - Cosmetic Chemistry - Theoretically (proposed YouTube Channel)
@@ -40,7 +42,6 @@ Here is a list of the projects that I am actively working on:
   - "What the Surfactant: The Basics"
   - "What the Surfactant: Detergents"
   - "What the Surfactant: Emulsifiers"
-  - "Natural vs NOT: What's HOT vs What's NOT"
 
 
 * References

@@ -22,28 +22,29 @@
 (require 'ox-publish)
 
 ;; Customize the HTML output
-(setq org-html-validation-link t              ;; Don't not show validation link
-      org-html-head-include-scripts nil       ;; Use our own scripts
+(setq org-html-validation-link t               ;; Don't not show validation link
+      org-html-head-include-scripts nil        ;; Use our own scripts
       org-html-head-include-default-style nil) ;; Use our own styles
 
 (setq org-html-head (concat "<link rel=\"stylesheet\" "
                             "href=\"https://cdn.simplecss.org/simple.min.css\"/>"))
 
 (setq org-publish-project-alist
-      '(("org-website"
-         :base-directory "./content"
-         :base-extension "org"
-         :publishing-directory "./docs"
-         :recursive t
-         :exclude "org-html-themes/.*"
-         :publishing-function 'org-html-publish-to-html
-         :headline-levels 4   ; default for now
-         :with-aurthor t
-         :with-creator t
-         :with-toc t
-         :section-numbers nil
-         :time-stamp-file t
-         :auto-preamble t)))
+      (list
+       (list "org-website"
+             :base-directory "./content"
+             :base-extension "org"
+             :publishing-directory "./docs"
+             :recursive t
+             :exclude "org-html-themes/.*"
+             :publishing-function 'org-html-publish-to-html
+             :headline-levels 4   ; default for now
+             :with-aurthor t
+             :with-creator t
+             :with-toc t
+             :section-numbers nil
+             :time-stamp-file t
+             :auto-preamble t)))
 
 (org-publish-all t)
 
