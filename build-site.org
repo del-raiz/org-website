@@ -1,4 +1,4 @@
-#+TITLE: config.org
+#+TITLE: build-site.org
 #+SUBTITLE: /Λ L M Λ R Λ Z  ★ L Λ B S/
 #+AUTHOR: Erik P. Almaraz
 #+EMAIL: erik@almarazlabs.com

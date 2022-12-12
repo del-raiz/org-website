@@ -27,6 +27,7 @@ This will act as a log of changes and a way to keep track of development. I will
 - TODO Investigate more Advanced Org Website capabilities
 - TODO Begin content curation & creation
 
+
 * License
 
 This website and its code is licensed under MIT, until further noticed - I may choose to license under Unlicense (https://unlicense.org/).
