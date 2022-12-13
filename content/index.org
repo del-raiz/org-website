@@ -1,22 +1,25 @@
-#+TITLE:Λ L M A R A Z  -  L Λ B S
-#+AUTHOR: Erik Almaraz
-#+DESCRIPTION: almarazlabs.com - Official Site of  Λ L M A R A Z  •  L Λ B S
+#+title: Λ L M A R A Z  -  L Λ B S
+#+author: Erik Almaraz
 :args:
 
-#+SETUPFILE:
-#+INCLUDE:
-#+ATTR_HTML:
-#+OPTIONS:
+#+description: almarazlabs.com - Official Site of  Λ L M A R A Z  •  L Λ B S
+#+startup: show2levels
+#+setupfile:
+#+include:
+#+attr_html:
+#+options:
 
 :end:
 
 * Overview
 
-This is the very beginnings of my [[https://github.com/skribest/org-website][website]] built in [[https://www.gnu.org/software/emacs/][Emacs]] written in [[https://orgmode.org/][Org Mode]] and [[https://www.gnu.org/software/emacs/manual/html_node/elisp/index.html][Emacs Lisp]].
+Welcome to the early beginnings of my personal [[https://github.com/skribest/org-website][website]] built in [[https://www.gnu.org/software/emacs/][Emacs]] written in [[https://orgmode.org/][Org Mode]] and [[https://www.gnu.org/software/emacs/manual/html_node/elisp/index.html][Emacs Lisp]].
 
-More to come content-wise in the /Cosmetic Chemistry/ space, and of course my adventures in all things *Emacs*, so stay tuned...  But first we must set up the infrastructure.
+I am currently working on my build using Org and Emacs and some Emacs Lisp tools I will be writting for the development of this website.. Once I have this stage complete, I will then begin to work on generating content.
 
-In the meantime, see below for references that helped set the foundation of my work.
+I would like to have a section focused on the /Cosmetic Chemistry/ space, ofcourse Emacs and Lisp programming (as I learn it), a personal Blog, and my CV, and a list of my projects I am actively developing, so stay tuned...
+
+Below is a rough outline of some of the content I would like to fill in.
 
 
 * Projects
@@ -25,23 +28,21 @@ Here is a list of the projects that I am actively working on:
 
 ** Emacs
 
-- This Website - my personal website, curriculum vitae, blog, and perhaps more
+- This Website - my personal website, curriculum vitae, blog, and more...
 
 - Emacs Lisp Utilities & Personal Configuration
 
 - Chembook.org (chembook.el) - a project I am still defining out, more to come
 
-** Cosmetic Chemistry
-
-- Cosmetic Chemistry - Theoretically (proposed YouTube Channel)
+** Cosmetic Chemistry /Theoretically/
 
 - Sneak Peak at upcoming show notes:
   - "The HLB System: The Basics"
   - "The HLB System: Advanced Concepts"
   - "The HLB System: Empirical vs Theoretical"
-  - "What the Surfactant: The Basics"
-  - "What the Surfactant: Detergents"
-  - "What the Surfactant: Emulsifiers"
+  - "Let's get Surface-Active: The Basics"
+  - "Let's get Surface-Active: Detergents"
+  - "Let's get Surface-Active: Emulsifiers"
 
 
 * References
