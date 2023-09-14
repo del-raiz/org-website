@@ -1,4 +1,4 @@
-#+title: Λ L M A R A Z  •  L Λ B S
+#+title: (define (org-website lisp . files) ...)
 #+subtitle: My Personal Website
 :args:
 
